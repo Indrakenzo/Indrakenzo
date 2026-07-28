@@ -1,43 +1,35 @@
-# ⚡ OPERATIVE TERMINAL: INDRA
-`[STATUS: ONLINE]` • `[CLEARANCE: LEVEL 5]` • `[LOCATION: MAKASSAR, ID]`
 <div align="center">
-  <!-- Ganti link gambar ini dengan avatar/gif yang kamu upload ke folder assets nanti -->
-  <img src="assets/avatar.gif" alt="Agent Avatar" width="150" />
-  
-  ### ▓▓▓ [ GAME ARCHITECT & CYBERSEC OPERATIVE ] ▓▓▓
-  *"Constructing realties, deconstructing firewalls."*
+# ⚡ OPERATIVE TERMINAL: INDRAKENZO
+`[SYSTEM: ONLINE]` • `[LOCATION: MAKASSAR_ID]` • `[CLEARANCE: LEVEL 9]`
+<img src="assets/avatar.png" width="150" height="150" alt="The Glitched Wolf Avatar">
+### "Architecting logic, securing the perimeter, and writing the shadows."
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=00FF00&background=000000&center=true&vCenter=true&width=435&lines=Initializing+Silentium+Protocols...;Accessing+Indrakenzo's+Mainframe...;Game+Dev+%7C+Cyber+Sec+%7C+Digital+Analyst)](https://git.io/typing-svg)
+---
+### 🛠️ DYNAMIC LOADOUT (Daily Rotation Sync)
+![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C93?style=for-the-badge&logo=kalilinux&logoColor=white)
+<img src="assets/os.png" height="28" alt="SilentiumOS">
 </div>
 ---
-### 🛡️ TACTICAL LOADOUT
-**> CUSTOM OPERATING SYSTEM**
-<!-- Ganti link ini dengan gambar OS buatanmu yang diupload ke folder assets -->
-<img src="assets/os-custom.png" alt="Custom OS" height="40" />
-**> DYNAMIC APP & GAME DEV ARSENAL (Auto-rotates every 24h)**
-<!-- START_TOOLS -->
-![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-<!-- END_TOOLS -->
----
-### 📁 ACTIVE MISSIONS & DEPLOYED PROJECTS
-> *Akses log proyek dan arsip sistem.*
+### 📂 CLASSIFIED PROJECTS & MISSIONS
+Daftar arsip operasi dan pengembangan perangkat lunak yang telah dideploy:
 
-| Mission / Repository | Designation | Target / Description | Status |
+| Mission Code (Repo Name) | Category | Objective / Target | Status |
 | :--- | :--- | :--- | :--- |
-| [**Nama-Repo-Game-1**](https://github.com/Indrakenzo/URL-Repo-Mu) | 🎮 Indie Game | Deskripsi singkat tentang mekanik gamenya. | `[BETA]` |
-| [**Nama-Repo-Cyber-1**](https://github.com/Indrakenzo/URL-Repo-Mu) | 🛡️ Cyber Tool | Deskripsi tool keamanan yang kamu buat. | `[DEPLOYED]` |
-| [**Nama-Repo-App-1**](https://github.com/Indrakenzo/URL-Repo-Mu) | 📱 App Dev | Deskripsi aplikasi atau sistem manajemen. | `[STABLE]` |
-| [**For-Revenge-Concept**](https://github.com/Indrakenzo/URL-Repo-Mu) | 📜 Hybrid Project | Draft arsitektur fiksi dan slice of life. | `[ENCRYPTED]` |
+| **[`[Nama-Repo-Proyek-Utamamu]`](https://github.com/Indrakenzo/URL-Repo-Mu-Disini)** | 🎮 Game/App | *[Deskripsi singkat, misal: Uji coba mekanik Unity]* | `[STABLE]` |
+| **[`[Nama-Repo-Cyber-Tools]`](https://github.com/Indrakenzo/URL-Repo-Cyber-Mu)** | 🛡️ Cyber Ops | *[Deskripsi singkat, misal: Skrip analisis jaringan]* | `[UPDATING]` |
+| **[`[Nama-Repo-Web-Deployment]`](https://github.com/Indrakenzo/URL-Repo-Web-Mu)** | 📱 Web Dev | *[Deskripsi singkat, misal: Portal web Vercel]* | `[DEPLOYED]` |
 
 ---
-### 📈 SYSTEM ACTIVITY & DIAGNOSTICS
-**> RECENT OPERATIONS (GitHub Snake)**
-<!-- Animasi snake akan otomatis ter-generate dan menimpa area ini -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Indrakenzo/Indrakenzo/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Indrakenzo/Indrakenzo/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Indrakenzo/Indrakenzo/output/github-contribution-grid-snake.svg">
-</picture>
-<br>
+### 📊 SYSTEM DIAGNOSTICS & TELEMETRY
 <div align="center">
-  <!-- Visitor Counter ala Digital/Retro -->
-  <img src="https://profile-counter.glitch.me/Indrakenzo/bg_000000/txt_00FF00/count.svg" alt="Visitor Count" />
+**[ 📡 LIVE GITHUB ACTIVITY STREAM ]**
+<img src="https://raw.githubusercontent.com/Indrakenzo/Indrakenzo/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+<br><br>
+**[ 🏆 TACTICAL ACHIEVEMENTS ]**
+[![trophy](https://github-profile-trophy.vercel.app/?username=Indrakenzo&theme=radical&no-frame=true&no-bg=true&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+<br><br>
+**[ 👁️ INTRUSION DETECTION (Visitor Count) ]**
+![Visitor Count](https://profile-counter.glitch.me/Indrakenzo/count.svg)
 </div>
