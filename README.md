@@ -1,59 +1,126 @@
-# ⚡ OPERATIVE TERMINAL: INDRA
-
-`[STATUS: ONLINE]` • `[CLEARANCE: LEVEL 5]` • `[LOCATION: MAKASSAR, ID]`
-
 <div align="center">
 
-<img src="assets/avatar.png" alt="Agent Avatar" width="150"/>
+# ⚡ OPERATIVE TERMINAL: INDRAKENZO
 
-## ▓▓▓ GAME ARCHITECT & CYBERSEC OPERATIVE ▓▓▓
+`[SYSTEM: ONLINE]` • `[CLEARANCE: LEVEL 9]` • `[LOCATION: MAKASSAR_ID]`
 
-*"Constructing realities, deconstructing firewalls."*
+<img src="assets/avatar.png" width="150" height="150" alt="Agent Avatar">
+
+### ▓▓▓ [ GAME ARCHITECT & CYBERSEC OPERATIVE ] ▓▓▓
+
+*"Constructing realities, deconstructing firewalls, and writing the shadows."*
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=00FF00&background=000000&center=true&vCenter=true&width=435&lines=Initializing+Silentium+Protocols...;Accessing+Indrakenzo's+Mainframe...;Game+Dev+%7C+Cyber+Sec+%7C+Digital+Analyst)](https://git.io/typing-svg)
 
 </div>
-
----
-
-## 🛡️ TACTICAL LOADOUT
-
-### 💻 Custom Operating System
-
-<img src="assets/os.png" alt="Silentium OS" height="60"/>
-
-**Silentium OS** — Experimental custom operating system concept focused on privacy, security, and tactical interface design.
-
----
-
-### ⚙️ Development Arsenal
-
-![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
-![CSharp](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-# 📁 ACTIVE MISSIONS & DEPLOYED PROJECTS
-
-> Repository archive and development operations.
-
-| Project | Category | Description | Status |
-|---|---|---|---|
-| [For-Revenge](https://github.com/Indrakenzo/For-Revenge) | 📜 Creative Project | Fiction architecture, thriller, character development, and story system design. | 🔒 ENCRYPTED |
-| OSINT-Probe | 🛡️ Cyber Security | OSINT reconnaissance toolkit for information gathering and research. | 🟢 ACTIVE |
-| Recon-Spectre | 🔍 Security Research | Reconnaissance framework and automation experiments. | 🟡 UPDATING |
-| HostHunter | 🌐 Network Tool | Network intelligence and host analysis utility. | 🟢 STABLE |
-| VeVoLib | ⚙️ Security Library | Modular security utility collection built with Python. | 🟢 STABLE |
 
 ---
 
 # 🧠 CURRENT OPERATIONS
 
 ```text
-[+] Exploring Cyber Security
-[+] Building Python Automation Tools
+[+] Exploring Cyber Security & Penetration Testing
+[+] Building Python Automation Tools & Security Libraries
 [+] Developing AI-Assisted Systems
 [+] Designing Game Worlds & Interactive Experiences
-[+] Learning Software Architecture
+[+] Architecting the "For Revenge" Universe
+
+🛡️ TACTICAL LOADOUT
+💻 Custom Operating System
+�
+￼
+Silentium OS
+Experimental custom operating system concept focused on:
+🔒 Privacy-first architecture
+🛡️ Security-oriented environment
+⚡ Tactical interface design
+🧠 AI-assisted workflow integration
+⚔️ DEVELOPMENT ARSENAL
+Primary Technology Stack
+Languages:
+├── Python
+├── JavaScript
+├── HTML/CSS
+└── Shell Script
+
+Security:
+├── OSINT
+├── Reconnaissance
+├── Penetration Testing
+└── Security Automation
+
+Creative:
+├── Game Architecture
+├── World Building
+├── Story System Design
+└── Interactive Experience Development
+
+📂 ACTIVE MISSIONS & DEPLOYED PROJECTS
+Repository archive and development operations.
+Mission Code
+Category
+Objective / Target
+Status
+For-Revenge
+📜 Creative Project
+Fiction architecture, thriller universe, character development, and story system design
+🔐 ENCRYPTED
+SilentiumShield-Recon
+🛡️ Cyber Ops
+Tactical reconnaissance tool based on Silentium Shield protocol
+🟢 ACTIVE
+OSINT-Probe
+🛡️ Cyber Security
+OSINT reconnaissance toolkit for information gathering
+🟢 STABLE
+Recon-Spectre
+🔍 Security Research
+Reconnaissance framework and automation experiments
+🟡 UPDATING
+HostHunter
+🌐 Network Tool
+Network intelligence and host analysis utility
+🟢 STABLE
+VeVoLib
+⚙️ Security Library
+Modular security utility collection built with Python
+🟢 STABLE
+Purple-tools-by.indra
+🧰 Cyber Tools
+Purple Team utility scripts and security tools collection
+🟢 ACTIVE
+quran
+📱 Application Development
+Digital application deployment and utility structure
+🟢 STABLE
+📊 SYSTEM DIAGNOSTICS & TELEMETRY
+�
+
+📡 LIVE GITHUB ACTIVITY STREAM
+�
+
+
+
+
+�
+
+🏆 TACTICAL ACHIEVEMENTS
+�
+￼
+⏱️ WAKATIME TERMINAL LOGS
+[WAITING FOR DATA STREAM...]
+
+WakaTime API integration will be injected automatically
+when GitHub Actions workflow is activated.
+👁️ INTRUSION DETECTION
+Visitor Counter
+�
+￼
+�
+
+🔗 OPERATIVE PROFILE
+�
+
+"Building systems. Breaking limits. Creating digital realities."
+�
+`
