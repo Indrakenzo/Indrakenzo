@@ -1,0 +1,34 @@
+name: Terminal Automation (Snake & Tool Rotation)
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Berjalan setiap 24 jam pada tengah malam UTC
+  workflow_dispatch: # Mengizinkan eksekusi manual
+
+jobs:
+  update-system:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Accessing Mainframe (Checkout Repo)
+        uses: actions/checkout@v3
+
+      - name: 🐍 Generating GitHub Snake Data
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: 🔄 Rotating Arsenal (Python Script)
+        run: |
+          python3 rotate_tools.py
+
+      - name: 📤 Committing System Updates
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git add dist/
+          git commit -m "System Update: Rotated tools & updated snake graph" || echo "No changes to commit"
+          git push
