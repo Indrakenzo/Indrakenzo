@@ -8,7 +8,12 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *' # Fallback eksekusi terjadwal otomatis
+    - cron: '0 0 * * *' # Fallback eksekusi terjadwal otomatis (Midnight UTC)
+  workflow_dispatch: # Parameter krusial untuk memaksa GitHub memunculkan tombol "Run workflow"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   execute-scripts:
