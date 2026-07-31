@@ -2,33 +2,39 @@ name: Terminal Automation (Snake & Tool Rotation)
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Berjalan setiap 24 jam pada tengah malam UTC
-  workflow_dispatch: # Mengizinkan eksekusi manual
+    - cron: '0 0 * * *' # Auto-deploy setiap 24 jam (00:00 UTC)
+  workflow_dispatch: # Manual trigger fallback
 
 jobs:
-  update-system:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Bypass Read-Only restriction
+
     steps:
-      - name: 📥 Accessing Mainframe (Checkout Repo)
+      - name: [1] Checkout Target Repository
         uses: actions/checkout@v3
 
-      - name: 🐍 Generating GitHub Snake Data
+      - name: [2] Initialize Python Subsystem
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: [3] Execute Dynamic Loadout Rotation
+        run: python rotate_tools.py
+
+      - name: [4] Generate Tactical Snake Grid
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: 🔄 Rotating Arsenal (Python Script)
+            assets/github-snake.svg
+            assets/github-snake-dark.svg?palette=github-dark
+          
+      - name: [5] Commit & Push Matrix Data
         run: |
-          python3 rotate_tools.py
-
-      - name: 📤 Committing System Updates
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git add dist/
-          git commit -m "System Update: Rotated tools & updated snake graph" || echo "No changes to commit"
+          git config --global user.name "JARVIS-Protocol"
+          git config --global user.email "jarvis@silentium.local"
+          git add README.md assets/github-snake*
+          git commit -m "SYSTEM OVERRIDE: Update tactical loadout & snake grid" || exit 0
           git push
