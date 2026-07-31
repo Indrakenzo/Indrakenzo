@@ -1,40 +1,34 @@
-name: Terminal Automation (Snake & Tool Rotation)
+name: Tactical Python Execution
 
 on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
   schedule:
-    - cron: '0 0 * * *' # Auto-deploy setiap 24 jam (00:00 UTC)
-  workflow_dispatch: # Manual trigger fallback
+    - cron: '0 0 * * *' # Fallback eksekusi terjadwal otomatis
 
 jobs:
-  build-and-deploy:
+  execute-scripts:
+    name: Run Primary Scripts
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # Bypass Read-Only restriction
-
+    
     steps:
-      - name: [1] Checkout Target Repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: [2] Initialize Python Subsystem
+      - name: Initialize Python Environment
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: [3] Execute Dynamic Loadout Rotation
-        run: python rotate_tools.py
-
-      - name: [4] Generate Tactical Snake Grid
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            assets/github-snake.svg
-            assets/github-snake-dark.svg?palette=github-dark
-          
-      - name: [5] Commit & Push Matrix Data
+      - name: Dependency Injection
         run: |
-          git config --global user.name "JARVIS-Protocol"
-          git config --global user.email "jarvis@silentium.local"
-          git add README.md assets/github-snake*
-          git commit -m "SYSTEM OVERRIDE: Update tactical loadout & snake grid" || exit 0
-          git push
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Execute Target (rotate_tools.py)
+        run: |
+          python rotate_tools.py
