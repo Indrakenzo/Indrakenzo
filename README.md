@@ -124,3 +124,12 @@ Visitor Counter
 "Building systems. Breaking limits. Creating digital realities."
 �
 `
+
+### 🐍 TACTICAL ACTIVITY GRID
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg">
+    <img alt="GitHub Contribution Snake" src="assets/github-snake.svg" width="100%">
+  </picture>
+</div>
