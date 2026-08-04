@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Indrakenzo/Indrakenzo/generate"><img alt="Use this template" src="https://img.shields.io/badge/Use_this_template-Create_yours-0891B2?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/Indrakenzo/generate"><img alt="Use this template" src="https://img.shields.io/badge/Use_this_template-Create_yours-0891B2?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 <p align="center">
