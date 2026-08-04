@@ -1,0 +1,95 @@
+{
+  "$schema": "./profile.schema.json",
+  "profile": {
+    "name": "Indrayaza Z",
+    "username": "indrakenzo",
+    "headline": "Cybersecurity & Financial Consultant",
+    "affiliation": "Konsultan Keuangan & Digital",
+    "location": "Makassar, Indonesia",
+    "status": "Securing financial & cyber ecosystem",
+    "about": [
+      "Sebagai sarjana Manajemen, saya memadukan kepatuhan finansial dan audit dengan ketajaman analisis keamanan siber.",
+      "Fokus saya adalah mendeteksi anomali di neraca keuangan sekaligus membedah residu biner untuk menjaga resiliensi arsitektur digital."
+    ]
+  },
+  "research": {
+    "primary": "Financial & Cyber",
+    "direction": "Sinergi Keuangan dan Siber",
+    "themes": "Forensic Audit / OSINT / Tax Compliance",
+    "narrative": "Fokus riset saya mencakup pengamanan infrastruktur finansial dan investigasi insiden siber. Saya selalu berusaha berpikir seperti peretas untuk membuat pertahanan lebih maju dari para peretas di tengah pertempuran modern."
+  },
+  "focus": [
+    {
+      "name": "Financial & Tax",
+      "description": "Kepatuhan hukum dan audit finansial tingkat tinggi bersertifikasi Brevet A & B serta Izin Kuasa Hukum Perpajakan."
+    },
+    {
+      "name": "Offensive Security",
+      "description": "Certified Red Team Operations Management, penetration testing, dan pembedahan anatomi kode."
+    },
+    {
+      "name": "Business & Marketing",
+      "description": "Penerapan analisis akuntansi yang akurat serta implementasi strategi digital marketing yang terukur."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Indrayaza Z Web",
+      "url": "https://indrayaza-z.vercel.app/",
+      "focus": "Research & Opinion",
+      "summary": "Platform publikasi opini dan analisis mendalam mengenai ekonomi, pajak, keamanan siber, dan digital forensik.",
+      "heroLabel": "Main Terminal"
+    },
+    {
+      "name": "Silentium Recon",
+      "url": "https://github.com/Indrakenzo/SilentiumShield-Recon",
+      "focus": "Cybersecurity Automation",
+      "summary": "Skrip otomatisasi reconnaissance yang mengintegrasikan berbagai engine scanning standar industri ke dalam satu Unified Launcher.",
+      "heroLabel": "Security Tool"
+    },
+    {
+      "name": "Desa-Sehat-Digital",
+      "url": "https://github.com/indrakenzo",
+      "focus": "Business Plan",
+      "summary": "Menjadi mentor untuk tim Juara 2 lomba Bisnis Plan Digital Universitas DIPA Makassar 2025.",
+      "heroLabel": "Award & Mentorship"
+    },
+    {
+      "name": "Cyber Breaker S3",
+      "url": "https://github.com/indrakenzo",
+      "focus": "Cyber Competition",
+      "summary": "Peserta kompetisi Cyber Breaker Season 3 wilayah regional Sulawesi-Selatan bersama tim Silentium-Shield.",
+      "heroLabel": "Active Operation"
+    }
+  ],
+  "techStack": [
+    "Kali Linux",
+    "Parrot OS",
+    "Windows",
+    "Silentium-Shield OS"
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "value": "indrakenzo",
+      "url": "https://github.com/Indrakenzo",
+      "logo": "github",
+      "color": "0B1220"
+    },
+    {
+      "label": "Email",
+      "value": "zainuddinindrayaza@gmail.com",
+      "url": "mailto:zainuddinindrayaza@gmail.com",
+      "logo": "mail",
+      "color": "0B1220"
+    }
+  ],
+  "activity": {
+    "enabled": true,
+    "limit": 6
+  },
+  "appearance": {
+    "palette": "signal"
+  },
+  "footer": "// SILENTIUM-SHIELD // VIGILANTE PROTOCOL //"
+}
